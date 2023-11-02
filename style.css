@@ -1,0 +1,51 @@
+/* seletor glogal = selecionar todos os elemnentos da pagina ou de determinado lugar*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans' , 'Lucida Sans Regular' , 'Lucida Grande' , 'Lucida Sans Unicode' , Geneva, Verdana, Geneva, sans-serif;
+}
+
+/* seletor color*/
+p{
+    color: aqua;
+}
+
+main{
+    margin-top: 1rem;
+}
+
+/* seletor pela classe */
+.paragrafo{
+    border: 1px solid rebeccapurple;
+    color: blueviolet;
+    margin-top: 1rem;
+}
+
+/* seletor pelo id */
+#titulo{
+    color: crimson;
+    margin-bottom: 1rem;
+}
+
+/* seletor pelo atributo */
+input[type="password"] {
+    font-size: 3rem;
+}
+
+/* seletor por descendente */
+.login-form input {
+    font-size: 2rem;
+    color: darkred;
+}
+
+/* seletor de filhos diretos */
+.login-form > input {
+    color: dimgray;
+    width: 10rem;
+}
+
+/* pseudo-classes */
+.cadastro-form div:nth-of-type(2) {
+    background: #00f;
+}
